@@ -1,20 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style_fitness.css">
+    <link rel="icon" href="../IMAGE/luck.png" type="image/png">
     <title>Активность</title>
 </head>
+
 <body>
- <nav>
-    <a href="index.html">Главная</a>
-    <a href="nutrition.html">Питание</a>
-    <a href="fitness.html">Активность</a>
-    <a href="routine.html">Режим дня</a>
-    <a href="contacts.html">Контакты</a>
-    <p>Польза спорта</p>
-    <p>Виды активности: Кардио, Силовые, Йога</p>
-    <p>Рекомендации по тренировкам</p>
-</nav>
+
+    <header>
+        <nav>
+            <div class="nav-container">
+                <img src="../IMAGE/luck.png" class="logo">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="nutrition.html">ПИТАНИЕ</a>
+                <a href="fitness.html">АКТИВНОСТЬ</a>
+                <a href="routine.html">РЕЖИМ ДНЯ</a>
+                <a href="contacts.html">КОНТАКТЫ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="section">
+
+            <h2>Польза физической активности</h2>
+
+            <ul class="list">
+                <li>Улучшает работу сердца</li>
+                <li>Укрепляет мышцы</li>
+                <li>Повышает уровень энергии</li>
+                <li>Улучшает настроение</li>
+                <li>Укрепляет иммунитет</li>
+            </ul>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Виды активности</h2>
+
+            <div class="activity-grid">
+
+                <div class="activity-card">
+                    <h3>Кардио</h3>
+                    <p>Бег, велосипед, плавание. Улучшает выносливость и работу сердца.</p>
+                    <img src="../IMAGE/swimming.png " class="fitness-img">
+                    <img src="../IMAGE/runner.png " class="fitness-img">
+                    <img src="../IMAGE/workout-machine.png " class="fitness-img">
+
+                </div>
+
+                <div class="activity-card">
+                    <h3>Силовые</h3>
+                    <p>Развивают мышцы и укрепляют тело.</p>
+                    <img src="../IMAGE/weights.png " class="fitness-img">
+                    <img src="../IMAGE/weightlifting.png " class="fitness-img">
+                    <img src="../IMAGE/muscle.png " class="fitness-img">
+
+                </div>
+
+                <div class="activity-card">
+                    <h3>Йога</h3>
+                    <p>Улучшает гибкость, снижает стресс.</p>
+                    <img src="../IMAGE/extended.png " class="fitness-img">
+                    <img src="../IMAGE/yoga.png " class="fitness-img">
+                    <img src="../IMAGE/lotus.png " class="fitness-img">
+                </div>
+
+                <div class="activity-card">
+                    <h3>Ходьба</h3>
+                    <p>Самая доступная и полезная физическая активность.</p>
+                    <img src="../IMAGE/dog-walking.png " class="fitness-img">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Сколько калорий сжигается</h2>
+
+            <table class="table">
+                <tr>
+                    <th>Активность</th>
+                    <th>Калории за 30 минут</th>
+                </tr>
+                <tr>
+                    <td>Бег</td>
+                    <td>240–350</td>
+                </tr>
+                <tr>
+                    <td>Велосипед</td>
+                    <td>200–300</td>
+                </tr>
+                <tr>
+                    <td>Плавание</td>
+                    <td>180–250</td>
+                </tr>
+                <tr>
+                    <td>Ходьба</td>
+                    <td>120–170</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Упражнения для тела и души</h2>
+
+            <div class="exercise-grid">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hj1_a7umGNI?si=BcOVTyYkKZbiD_0i"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ct6fI3gf7do?si=eOXnkvahMrMyrglO"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/fINmcjnd9ow?si=Qjz7I2B5I0w1u0JI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4dQ2fA7sYEU?si=NmgUfCPk1qI5Wtrk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Таймер тренировки</h2>
+
+            <div class="timer">
+
+                <span id="time">00:00</span><br><br>
+
+                <button>Старт</button>
+                <button>Сброс</button>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Калькулятор ИМТ</h2>
+
+            <div class="calculator">
+                <input type="number" id="weight" placeholder="Вес (кг)">
+                <input type="number" id="height" placeholder="Рост (см)">
+
+                <button>Рассчитать</button>
+
+                <p id="result"></p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer-content">
+
+        <p>Информация на сайте носит ознакомительный характер и не заменяет консультацию специалиста.</p>
+        <p>© 2026 Healthy Life</p>
+
+    </footer>
+
 </body>
+
 </html>
