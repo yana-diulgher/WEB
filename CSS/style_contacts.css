@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(234, 230, 230, 0.8), rgba(226, 222, 222, 0.8)),
+    url("../IMAGE/fonclover2.jpg");
+}
+
+nav {
+  background-color: rgb(191, 238, 162);
+  text-align: center;
+  padding: 1%;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 110%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link.active{
+  color: rgb(97, 177, 22);
+}
+
+.logo {
+  width: 1.5%;
+  height: 1.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.form {
+  max-width: 30%;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  width: 50%;
+  padding: 10px;
+  background: rgb(178, 239, 137);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: rgb(158, 209, 37);
+}
+
+.footer-content {
+  padding: 10px;
+  background-color: rgb(195, 237, 168);
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}

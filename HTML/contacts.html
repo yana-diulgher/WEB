@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../IMAGE/luck.png" type="image/png">
+    <link rel="stylesheet" href="../CSS/style_contacts.css">
     <title>Контакты</title>
 </head>
+
 <body>
- <nav>
-     <a href="index.html">Главная</a>
-    <a href="nutrition.html">Питание</a>
-    <a href="fitness.html">Активность</a>
-    <a href="routine.html">Режим дня</a>
-    <a href="contacts.html">Контакты</a>
-</nav>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <img src="../IMAGE/luck.png" class="logo">
+                <a href="index.html" class="nav-link">ГЛАВНАЯ</a>
+                <a href="nutrition.html" class="nav-link">ПИТАНИЕ</a>
+                <a href="fitness.html" class="nav-link">АКТИВНОСТЬ</a>
+                <a href="routine.html" class="nav-link">РЕЖИМ ДНЯ</a>
+                <a href="contacts.html" class="nav-link">КОНТАКТЫ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <form class="form">
+            <label for="fname">Имя:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+            <label for="lname">Фамилия:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="email" name="email" placeholder="e-mail"><br>
+            <label for="message">Cообщение:</label><br>
+            <input type="text" id="message" name="message" placeholder="Your message"><br><br>
+            <button>Отправить</button>
+        </form>
+    </main>
+
+    <footer class="footer-content">
+        <p>Информация на сайте носит ознакомительный характер и не заменяет консультацию специалиста.</p>
+        <p>Сайт о здоровом образе жизни cоздан в учебных целях.</p>
+        <p>© 2026 Healthy Life</p>
+    </footer>
+
+    <script src="../JS/script_contacts.js"> </script>
+
 </body>
+
 </html>
